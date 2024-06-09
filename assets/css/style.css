@@ -9,3 +9,144 @@ body{
     font-size: 1.9rem;
     font-family: "Sora", sans-serif;
 }
+:root{
+    --header-background: #10375C;
+    --header-color: #2E80CE;
+}
+.header{
+    display: flex;
+    background-color: var(--header-background);
+    /* min-height: 100vh; */
+    height: 600px
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: calc(100% -48px);
+}
+.header-top{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.navbar{
+    margin-left: 50px;
+}
+.navbar__list{
+   display: flex;
+   gap: 50px;
+}
+.navbar__item .navbar__link{
+    color: #C9D2DA;
+}
+.cta__action{
+    margin-right: 80px;
+}
+.logo{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+.navbar__linkk{
+    text-shadow: 2px 0 0 currentColor;
+    color: #FFFFFF;
+}
+.navbar__linkk-active::before{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.navbar__link:hover{
+    color: black;
+    
+}
+.action__btn{
+    margin-left: 20px;
+    color: #FFFFFF;
+    opacity: 0px;
+    background-color:#2E80CE;
+    padding: 10px 15px;
+    border-radius: 60px;
+}
+.btn.action__btn:hover{
+    background-color: black;
+}
+.action__btnone{
+    color: #C9D2DA;
+    align-items: center;
+}
+.action__btnone:hover{
+    color: red;
+}
+.header-bottom .container{
+    display: flex;
+}
+.header-bottom{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+.header-bottom__left{
+    margin-top: 50px;
+}
+.item__chinh{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.item__phu{
+    font-size: 15px;
+    color: #C9D2DA;
+    margin-top: 20px;
+    width: 400px;
+}
+.bottom{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+}
+.bootomone{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 10px;
+    height: 20px;
+    padding: 18px;
+    margin-top: 2px;
+    background-color: #2E80CE;
+    border-radius: 40px;
+}
+.bootomone:hover{
+    background-color: black;
+}
+.bottom__two{
+   align-items: center;
+   width: 250px;
+   height: 30px;
+   top: 185px;
+   left: -343px;
+   font-size: 18px;
+   align-items: center;
+}
+.bottom__two .bottom__twoa{
+    color: #FFFFFF;
+    align-items: center;
+}
+.header-bottom__right{
+    display: flex;
+    margin-left: 100px;
+}
+.header-bottom__right .image{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.image .img{
+    height: 300px;
+    min-height: 420px;
+}
