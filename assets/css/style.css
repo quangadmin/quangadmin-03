@@ -30,6 +30,9 @@ body{
     align-items: center;
     margin-top: 20px;
 }
+.header-top .logo{
+    margin-left: 25px;
+}
 .navbar{
     margin-left: 50px;
 }
@@ -58,6 +61,7 @@ a{
 }
 .navbar__link:hover{
     color: black;
+    transition: 0.2s;
     
 }
 .action__btn{
@@ -67,6 +71,9 @@ a{
     background-color:#2E80CE;
     padding: 10px 15px;
     border-radius: 60px;
+}
+.cta__action{
+    margin-right: 20px;
 }
 .btn.action__btn:hover{
     background-color: black;
@@ -84,7 +91,6 @@ a{
 .header-bottom{
     display: flex;
     margin-top: 20px;
-    
 }
 .header-bottom, .container{
    justify-content: space-between;
@@ -106,6 +112,9 @@ a{
     display: flex;
     margin-top: 50px;
     gap: 100px;
+}
+.header-bottom__right{
+margin-top: 50px;
 }
 .bootomone{
     color: #FFFFFF;
@@ -170,7 +179,7 @@ a{
     align-items: center;
 }
 .main__content--right{
-    margin-right: 150px;
+    margin: 80px 100px 0 0;
     border: 4px solid gray;
     border-radius: 20px;
 }
@@ -183,7 +192,7 @@ a{
     top: 1178px;
     left: 135px;
     gap: 0px;
-    border-radius: 12px 0px 0px 0px;
+    border-radius: 12px;
     opacity: 0px;
     object-fit: cover;
     margin-left: 60px;
@@ -191,7 +200,7 @@ a{
 }
 .content__list{
     display: flex;
-    margin: 40px 0;
+    padding: 20px;
 }
 .content__list:hover{
     cursor: pointer;
@@ -227,4 +236,153 @@ a{
     line-height: 28px;
     text-align: left;
     width: 320px;
+}
+.content__right--bottom{
+    display: flex;
+    font-family: Sora;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 30px 30px;
+    background-color: var(--header-color);
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.content__right--bottom:hover{
+    background-color: rgb(178, 117, 189);
+    transition: 0.25s;
+}
+.work{
+    background-color: #F6FBFF;
+    height: 650px;
+}
+.work .container{
+    margin-top: 80px;
+    padding: 60px;
+}
+.work__content--list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.work__content--item{
+    border:8px solid #EAF6FF;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+.work__content--item:hover{
+    border: 8px rgba(13, 109, 199, 0.288) solid ;
+    border-radius: 20px;
+}
+.word__title{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--header-background);
+}
+.word__title-two{
+    color: #575F66;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 30px;
+    width: 500px;
+    
+}
+.work__content{
+    margin-top: 100px;
+}
+.item__figure .img{
+    width: 67.52px;
+    height: 67.52px;
+    top: 2.23px;
+    left: 2.23px;
+    gap: 0px;
+    opacity: 0px;
+}
+.item__h4{
+    font-family: Sora;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+}
+.work__content--item .tile--p{
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    width: 290px;
+    margin-top: 20px;
+}
+.more .img{
+    display: inline-block;
+    margin-top: 20px;
+    color: blue;
+    padding-top: 20px;
+}
+.container__take{
+    margin-top: 200px;
+}
+.take__list{
+    display: flex;
+}
+.figure__img{
+    position: relative;
+}
+.take__figure-img{
+    position: relative;
+
+}
+.take--two{
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    top: 2665px;
+    left: 393px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    z-index: 1;
+}
+.take__right{
+    margin-left: 90px;
+}
+.take__right--h2{
+    font-family: Sora;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.take__right--p{
+    margin: 40px 0;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+.take__more{
+    display: inline-block;
+    margin-top: 60px;
+    color: #F6FBFF;
+    width: 205px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color: #10375C;
+    transition: 0.25s;
+    text-align: center;
+}
+.take__more:hover{
+    background-color: black;
+    transition: 0.25s;
 }
