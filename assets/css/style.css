@@ -12,6 +12,8 @@ body{
 :root{
     --header-background: #10375C;
     --header-color: #2E80CE;
+    --footer-color:#FFFFFF;
+
 }
 .header{
     display: flex;
@@ -419,13 +421,13 @@ margin-top: 50px;
     width: 200px;
     height: 80px;
     background-color: rgb(255, 245, 103);
-    border: 10px solid ;
+    border: 10px solid rgb(211, 196, 196);
     border-radius: 40px;
 }
 .team__header .team__cta:hover{
-    background-color: #2E80CE;
+    background-color: #3ba0fe;
     color: #EFF6FD;
-    border: 10px solid red;
+    border: 10px solid rgb(171, 46, 203);
 }
 .team__item--img{
     display: block;
@@ -531,6 +533,7 @@ margin-top: 50px;
     width: 500px;
     margin-top: 80px;
     margin-left: 550px;
+    color: #EFF6FD;
 }
 .take-back__right--p{
     width: 400px;
@@ -544,10 +547,294 @@ margin-top: 50px;
     width: 586px;
     margin-top: 20px;
     margin-bottom: 30px;
+    color: #EAF6FF;
 }
 .bottom-back__right--two{
     display: flex;
     margin-top: 20px;
     margin-left: 550px;
     gap: 40px;
+}
+.img-black__one:hover{
+    background-color: rgb(41, 200, 102);
+    transition: 0.5s;
+}
+.img-black__two:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+/* read two */
+.read-letter__left{
+    margin-top: 20px;
+}
+.read__two{
+    display: flex;
+    justify-content: space-between;
+}
+.read-letter{
+    margin-top: 150px;
+}
+.letter{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #2E80CE;
+    border-radius: 50%;
+}
+.letter-one:hover{
+    background-color: rgb(252, 245, 201);
+    transition: 0.25s;
+}
+.letter-right:hover{
+    background-color:  rgb(252, 245, 201);
+    transition: 0.25s;
+}
+.letter__h1{
+    font-family: Sora;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 470px;
+}
+.letter-bottom{
+    display: flex;
+    gap: 20px;
+}
+.letter__p{
+    display: inline-block;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: 2px underline black;
+}
+.letter-right{
+    transform: rotate(180deg);
+}
+.read-letter__right{
+    display:flex;
+    gap: 20px;
+}
+.block-one{
+    width: 270px;
+    height: 375px;
+    top: 5123px;
+    left: 735px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #575F66;
+    padding: 5px;
+    border-radius: 20px;
+}
+.read-letter__img{
+    width: 260px;
+    height: 172px;
+    top: 5123px;
+    left: 735px;
+    gap: 0px;
+    border-radius: 12px 12px 10px 10px;
+    opacity: 0px;
+}
+.read-letter__title{
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+}
+.read-letter__text{
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin: 10px 0 20px 0;
+}
+.read-letter__link{
+    display: inline-block;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.64px;
+    text-align: left;
+}
+.section__footer{
+    margin-top: 20px;
+    padding: 80px;
+}
+
+.footer__container{
+    padding: 20px;
+    background-color: #F6FBFF;
+    height: 452px;
+}
+.content__footer{
+    text-align: center;
+}
+.footer__title{
+    font-family: Sora;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.footer__text{
+    width: 617px;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+.btn__footer{
+    display: inline-block;
+    margin-top: 20px;
+    width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color:var(--header-color);
+    padding:20px;
+    color: var(--footer-color);
+    text-align: center;
+    transition:0.25s;
+}
+.footer__title::after{
+    content:"";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background-color: black;
+    margin: 18px auto 0;
+
+}
+.btn__footer:hover{
+    background-color: rgb(240, 131, 213);
+    transition: 0.25s;
+}
+.footer__first{
+    display: block;
+    background-color:#406181;
+    height: 553px;
+    position: relative;
+
+}
+.footer{
+    font-family: "Open Sans", sans-serif;
+}
+.footer__list{
+    margin-top: 40px;
+}
+.footer__item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    top: 100px;
+}
+.footer__figure{
+    display: flex;
+    gap: 20px;
+}
+.footer__container{
+    margin-top: 20px;
+}
+.footer__figure{
+    margin-bottom: 20px;
+}
+.footer__figure--shine{
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: right;
+    color: #EAF6FF;
+
+}
+.footer__figure--shine::after{
+    content: "smile";
+    display: block;
+    font-family: Sora;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: right;
+}
+.footer-textt{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #dedede;
+}
+.block__two--title{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.block__two--text{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color:#A9B3BB;
+}
+.input__email{
+    width: 150px;
+    height: 30px;
+    top: 6608px;
+    left: 973px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.button__class{
+    width: 108px;
+    height: 36px;
+    top: 6608px;
+    left: 1197px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #2E80CE;
+}
+.footer__item::after{
+    content: "";
+    display: block;
+    width: 800px;
+    height: 1.3px;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 280px;
+    left: 180px;
+}
+.footer__last{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    color:#dedede
 }
